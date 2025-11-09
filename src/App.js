@@ -9,7 +9,6 @@ const RequirementsChatbot = () => {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [tickets, setTickets] = useState([]);
-  const [customerInfo, setCustomerInfo] = useState(null);
   const [showCompanyModal, setShowCompanyModal] = useState(false);
   const messagesEndRef = useRef(null);
 
