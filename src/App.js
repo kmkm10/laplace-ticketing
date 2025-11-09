@@ -109,7 +109,6 @@ const RequirementsChatbot = () => {
     setCurrentUser(null);
     setMessages([]);
     setTickets([]);
-    setCustomerInfo(null);
   };
 
   const handleSend = async () => {
