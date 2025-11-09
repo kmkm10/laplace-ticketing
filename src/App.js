@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, CheckCircle, Clock, AlertCircle, Download, Trash2, Loader2, User, Plus, Building2, Key, LogOut } from 'lucide-react';
+import { Send, CheckCircle, Clock, AlertCircle, Download, Loader2, User, Plus, Building2, Key, LogOut } from 'lucide-react';
 
 const RequirementsChatbot = () => {
   const [userRole, setUserRole] = useState(null); // 'admin', 'customer', 'engineer'
